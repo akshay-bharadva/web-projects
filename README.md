@@ -1,6 +1,6 @@
 # Quote
 
-Random Quote Generator -  akshaybharadva.github.io/quote/
+Random Quote Generator -  https://akshaybharadva.github.io/quote/
 
 For learning api to use in JS
 
