@@ -8,6 +8,7 @@
 			content="width=device-width, initial-scale=1.0"
 		/>
 		<title>Quotes</title>
+		<script src="https://kit.fontawesome.com/e61be9c1a6.js" crossorigin="anonymous"></script>
 		<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Poiret+One&family=Style+Script&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="style.css" />
 	</head>
@@ -16,15 +17,14 @@
 			<h3>Quote</h3>
 			<figure>
 				<blockquote cite=""" id="quote" class="quote">
-						//Unknown Quote
 				</blockquote>
 				<figcaption id="quoteAuthor" class="quoteAuthor">
-					// Unknown Author
 				</figcaption>
+				<input type="hidden" id="forCopy">
 			</figure>
-			<button id="quoteBtn" class="btn">Get Me Next Quotes!</button>
+			<button id="quoteBtn" class="btn">Next Quote <i class="fas fa-arrow-right"></i></button>
+			<button id="copy" class="btn copy"><i class="far fa-copy"></i> Copy</button>
 		</div>
-
-		<script src="script.js"></script>
 	</body>
+	<script src="script.js"></script>
 </html>
