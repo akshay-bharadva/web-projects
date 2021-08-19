@@ -57,7 +57,7 @@ figure {
 	font-size: 1.2rem;
 	cursor: pointer;
 	outline: none;
-	margin: 0 0.5rem;
+	margin: 0.5rem;
 }
 .btn:active {
 	transform: scale(0.98);
